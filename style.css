@@ -1,0 +1,160 @@
+nav{
+    border: 3px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.icon{
+    width: 32px;
+
+}
+
+.images{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header{
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 32px;
+}
+
+.pupsik1{
+    width: 50%;
+    font-size: 20px;
+}
+
+.pupsik2{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 20px;
+}
+
+.img1{
+    width: 340px;
+    height: 193px;
+    position: relative;
+    left: -90px;
+}
+
+
+
+.about_text{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #F2F2F2;
+    position: relative;
+    /* right: -20px; */
+    width: 500px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    
+}
+
+.about_text:hover{
+    background-color: black;
+    color: #F2F2F2;
+    transition: .3s all ease;
+}
+
+.text1{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #F2F2F2;
+    position: relative;
+    /* right: -20px; */
+    width: 500px;
+    font-family: monospace;
+    
+}
+
+.img2{
+    position: relative;
+    left: -40px;
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text2{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+.text3{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+
+.image1{
+    margin-bottom: 20px;
+}
+
+.text4{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #F2F2F2;
+    position: relative;
+    /* right: -20px; */
+    width: 500px;
+}
+
+footer p:hover{
+    color: rgb(37, 72, 106);
+}
+
+footer p{
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 700;
+    border: 3px solid black;
+    border-radius: 80px;
+    width: fit-content;
+    padding: 5px;
+    background-color: #F2F2F2;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+footer{
+    padding: 30px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p{
+    font-size: 16px;
+    border: none;
+}
+
+.op:hover{
+     background-color: black;
+     color: #F2F2F2;
+     transition: .3s all ease;
+}
+
